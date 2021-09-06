@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90119FFC26E654E000251BEA /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90119FFB26E654E000251BEA /* Tests_iOS.swift */; };
+		9011A00726E654E000251BEA /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011A00626E654E000251BEA /* Tests_macOS.swift */; };
+		9011A00926E654E000251BEA /* WODbodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90119FE026E654DD00251BEA /* WODbodApp.swift */; };
+		9011A00A26E654E000251BEA /* WODbodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90119FE026E654DD00251BEA /* WODbodApp.swift */; };
+		9011A00B26E654E000251BEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90119FE126E654DD00251BEA /* ContentView.swift */; };
+		9011A00C26E654E000251BEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90119FE126E654DD00251BEA /* ContentView.swift */; };
+		9011A00D26E654E000251BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90119FE226E654E000251BEA /* Assets.xcassets */; };
+		9011A00E26E654E000251BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90119FE226E654E000251BEA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90119FF826E654E000251BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90119FDB26E654DD00251BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90119FE626E654E000251BEA;
+			remoteInfo = "WODbod (iOS)";
+		};
+		9011A00326E654E000251BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90119FDB26E654DD00251BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90119FEE26E654E000251BEA;
+			remoteInfo = "WODbod (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90119FE026E654DD00251BEA /* WODbodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WODbodApp.swift; sourceTree = "<group>"; };
+		90119FE126E654DD00251BEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90119FE226E654E000251BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90119FE726E654E000251BEA /* WODbod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WODbod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90119FEA26E654E000251BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90119FEF26E654E000251BEA /* WODbod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WODbod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90119FF126E654E000251BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90119FF226E654E000251BEA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		90119FF726E654E000251BEA /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90119FFB26E654E000251BEA /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		90119FFD26E654E000251BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9011A00226E654E000251BEA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9011A00626E654E000251BEA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		9011A00826E654E000251BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90119FE426E654E000251BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90119FEC26E654E000251BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90119FF426E654E000251BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90119FFF26E654E000251BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90119FDA26E654DD00251BEA = {
+			isa = PBXGroup;
+			children = (
+				90119FDF26E654DD00251BEA /* Shared */,
+				90119FE926E654E000251BEA /* iOS */,
+				90119FF026E654E000251BEA /* macOS */,
+				90119FFA26E654E000251BEA /* Tests iOS */,
+				9011A00526E654E000251BEA /* Tests macOS */,
+				90119FE826E654E000251BEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90119FDF26E654DD00251BEA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				90119FE026E654DD00251BEA /* WODbodApp.swift */,
+				90119FE126E654DD00251BEA /* ContentView.swift */,
+				90119FE226E654E000251BEA /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		90119FE826E654E000251BEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90119FE726E654E000251BEA /* WODbod.app */,
+				90119FEF26E654E000251BEA /* WODbod.app */,
+				90119FF726E654E000251BEA /* Tests iOS.xctest */,
+				9011A00226E654E000251BEA /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90119FE926E654E000251BEA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90119FEA26E654E000251BEA /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		90119FF026E654E000251BEA /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				90119FF126E654E000251BEA /* Info.plist */,
+				90119FF226E654E000251BEA /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		90119FFA26E654E000251BEA /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90119FFB26E654E000251BEA /* Tests_iOS.swift */,
+				90119FFD26E654E000251BEA /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		9011A00526E654E000251BEA /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				9011A00626E654E000251BEA /* Tests_macOS.swift */,
+				9011A00826E654E000251BEA /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90119FE626E654E000251BEA /* WODbod (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9011A01126E654E000251BEA /* Build configuration list for PBXNativeTarget "WODbod (iOS)" */;
+			buildPhases = (
+				90119FE326E654E000251BEA /* Sources */,
+				90119FE426E654E000251BEA /* Frameworks */,
+				90119FE526E654E000251BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WODbod (iOS)";
+			productName = "WODbod (iOS)";
+			productReference = 90119FE726E654E000251BEA /* WODbod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90119FEE26E654E000251BEA /* WODbod (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9011A01426E654E000251BEA /* Build configuration list for PBXNativeTarget "WODbod (macOS)" */;
+			buildPhases = (
+				90119FEB26E654E000251BEA /* Sources */,
+				90119FEC26E654E000251BEA /* Frameworks */,
+				90119FED26E654E000251BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WODbod (macOS)";
+			productName = "WODbod (macOS)";
+			productReference = 90119FEF26E654E000251BEA /* WODbod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90119FF626E654E000251BEA /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9011A01726E654E000251BEA /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				90119FF326E654E000251BEA /* Sources */,
+				90119FF426E654E000251BEA /* Frameworks */,
+				90119FF526E654E000251BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90119FF926E654E000251BEA /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 90119FF726E654E000251BEA /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9011A00126E654E000251BEA /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9011A01A26E654E000251BEA /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				90119FFE26E654E000251BEA /* Sources */,
+				90119FFF26E654E000251BEA /* Frameworks */,
+				9011A00026E654E000251BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9011A00426E654E000251BEA /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 9011A00226E654E000251BEA /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90119FDB26E654DD00251BEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					90119FE626E654E000251BEA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					90119FEE26E654E000251BEA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					90119FF626E654E000251BEA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 90119FE626E654E000251BEA;
+					};
+					9011A00126E654E000251BEA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 90119FEE26E654E000251BEA;
+					};
+				};
+			};
+			buildConfigurationList = 90119FDE26E654DD00251BEA /* Build configuration list for PBXProject "WODbod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90119FDA26E654DD00251BEA;
+			productRefGroup = 90119FE826E654E000251BEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90119FE626E654E000251BEA /* WODbod (iOS) */,
+				90119FEE26E654E000251BEA /* WODbod (macOS) */,
+				90119FF626E654E000251BEA /* Tests iOS */,
+				9011A00126E654E000251BEA /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90119FE526E654E000251BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9011A00D26E654E000251BEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90119FED26E654E000251BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9011A00E26E654E000251BEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90119FF526E654E000251BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9011A00026E654E000251BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90119FE326E654E000251BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9011A00B26E654E000251BEA /* ContentView.swift in Sources */,
+				9011A00926E654E000251BEA /* WODbodApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90119FEB26E654E000251BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9011A00C26E654E000251BEA /* ContentView.swift in Sources */,
+				9011A00A26E654E000251BEA /* WODbodApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90119FF326E654E000251BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90119FFC26E654E000251BEA /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90119FFE26E654E000251BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9011A00726E654E000251BEA /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90119FF926E654E000251BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90119FE626E654E000251BEA /* WODbod (iOS) */;
+			targetProxy = 90119FF826E654E000251BEA /* PBXContainerItemProxy */;
+		};
+		9011A00426E654E000251BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90119FEE26E654E000251BEA /* WODbod (macOS) */;
+			targetProxy = 9011A00326E654E000251BEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9011A00F26E654E000251BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9011A01026E654E000251BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9011A01226E654E000251BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8825H46UN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RhoadsDev.WODbod;
+				PRODUCT_NAME = WODbod;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9011A01326E654E000251BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8825H46UN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RhoadsDev.WODbod;
+				PRODUCT_NAME = WODbod;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9011A01526E654E000251BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z8825H46UN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RhoadsDev.WODbod;
+				PRODUCT_NAME = WODbod;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9011A01626E654E000251BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z8825H46UN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RhoadsDev.WODbod;
+				PRODUCT_NAME = WODbod;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9011A01826E654E000251BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8825H46UN;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RhoadsDev.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WODbod (iOS)";
+			};
+			name = Debug;
+		};
+		9011A01926E654E000251BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8825H46UN;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RhoadsDev.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WODbod (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9011A01B26E654E000251BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z8825H46UN;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "RhoadsDev.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WODbod (macOS)";
+			};
+			name = Debug;
+		};
+		9011A01C26E654E000251BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z8825H46UN;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "RhoadsDev.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WODbod (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90119FDE26E654DD00251BEA /* Build configuration list for PBXProject "WODbod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9011A00F26E654E000251BEA /* Debug */,
+				9011A01026E654E000251BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9011A01126E654E000251BEA /* Build configuration list for PBXNativeTarget "WODbod (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9011A01226E654E000251BEA /* Debug */,
+				9011A01326E654E000251BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9011A01426E654E000251BEA /* Build configuration list for PBXNativeTarget "WODbod (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9011A01526E654E000251BEA /* Debug */,
+				9011A01626E654E000251BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9011A01726E654E000251BEA /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9011A01826E654E000251BEA /* Debug */,
+				9011A01926E654E000251BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9011A01A26E654E000251BEA /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9011A01B26E654E000251BEA /* Debug */,
+				9011A01C26E654E000251BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90119FDB26E654DD00251BEA /* Project object */;
+}
