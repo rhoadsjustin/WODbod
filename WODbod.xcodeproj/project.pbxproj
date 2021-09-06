@@ -11,10 +11,20 @@
 		9011A00726E654E000251BEA /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011A00626E654E000251BEA /* Tests_macOS.swift */; };
 		9011A00926E654E000251BEA /* WODbodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90119FE026E654DD00251BEA /* WODbodApp.swift */; };
 		9011A00A26E654E000251BEA /* WODbodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90119FE026E654DD00251BEA /* WODbodApp.swift */; };
-		9011A00B26E654E000251BEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90119FE126E654DD00251BEA /* ContentView.swift */; };
-		9011A00C26E654E000251BEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90119FE126E654DD00251BEA /* ContentView.swift */; };
+		9011A00B26E654E000251BEA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90119FE126E654DD00251BEA /* MainView.swift */; };
+		9011A00C26E654E000251BEA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90119FE126E654DD00251BEA /* MainView.swift */; };
 		9011A00D26E654E000251BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90119FE226E654E000251BEA /* Assets.xcassets */; };
 		9011A00E26E654E000251BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90119FE226E654E000251BEA /* Assets.xcassets */; };
+		9011A01E26E6555F00251BEA /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011A01D26E6555F00251BEA /* HealthView.swift */; };
+		9011A01F26E6555F00251BEA /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011A01D26E6555F00251BEA /* HealthView.swift */; };
+		9011A02126E655A800251BEA /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011A02026E655A800251BEA /* NutritionView.swift */; };
+		9011A02226E655A800251BEA /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011A02026E655A800251BEA /* NutritionView.swift */; };
+		9011A02526E65D8100251BEA /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011A02426E65D8100251BEA /* UserData.swift */; };
+		9011A02626E65D8100251BEA /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011A02426E65D8100251BEA /* UserData.swift */; };
+		9011A02826E6616400251BEA /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011A02726E6616400251BEA /* SignUpView.swift */; };
+		9011A02926E6616400251BEA /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011A02726E6616400251BEA /* SignUpView.swift */; };
+		9011A02B26E6664A00251BEA /* InsertUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011A02A26E6664A00251BEA /* InsertUserData.swift */; };
+		9011A02C26E6664A00251BEA /* InsertUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011A02A26E6664A00251BEA /* InsertUserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 
 /* Begin PBXFileReference section */
 		90119FE026E654DD00251BEA /* WODbodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WODbodApp.swift; sourceTree = "<group>"; };
-		90119FE126E654DD00251BEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90119FE126E654DD00251BEA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		90119FE226E654E000251BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90119FE726E654E000251BEA /* WODbod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WODbod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90119FEA26E654E000251BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +59,11 @@
 		9011A00226E654E000251BEA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9011A00626E654E000251BEA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		9011A00826E654E000251BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9011A01D26E6555F00251BEA /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		9011A02026E655A800251BEA /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		9011A02426E65D8100251BEA /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		9011A02726E6616400251BEA /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		9011A02A26E6664A00251BEA /* InsertUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertUserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +113,13 @@
 		90119FDF26E654DD00251BEA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9011A02326E65D7100251BEA /* Models */,
 				90119FE026E654DD00251BEA /* WODbodApp.swift */,
-				90119FE126E654DD00251BEA /* ContentView.swift */,
+				90119FE126E654DD00251BEA /* MainView.swift */,
+				9011A01D26E6555F00251BEA /* HealthView.swift */,
+				9011A02026E655A800251BEA /* NutritionView.swift */,
 				90119FE226E654E000251BEA /* Assets.xcassets */,
+				9011A02726E6616400251BEA /* SignUpView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -149,6 +168,15 @@
 				9011A00826E654E000251BEA /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		9011A02326E65D7100251BEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9011A02426E65D8100251BEA /* UserData.swift */,
+				9011A02A26E6664A00251BEA /* InsertUserData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +336,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9011A00B26E654E000251BEA /* ContentView.swift in Sources */,
+				9011A00B26E654E000251BEA /* MainView.swift in Sources */,
+				9011A02126E655A800251BEA /* NutritionView.swift in Sources */,
+				9011A02B26E6664A00251BEA /* InsertUserData.swift in Sources */,
+				9011A01E26E6555F00251BEA /* HealthView.swift in Sources */,
+				9011A02526E65D8100251BEA /* UserData.swift in Sources */,
+				9011A02826E6616400251BEA /* SignUpView.swift in Sources */,
 				9011A00926E654E000251BEA /* WODbodApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +350,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9011A00C26E654E000251BEA /* ContentView.swift in Sources */,
+				9011A00C26E654E000251BEA /* MainView.swift in Sources */,
+				9011A02226E655A800251BEA /* NutritionView.swift in Sources */,
+				9011A02C26E6664A00251BEA /* InsertUserData.swift in Sources */,
+				9011A01F26E6555F00251BEA /* HealthView.swift in Sources */,
+				9011A02626E65D8100251BEA /* UserData.swift in Sources */,
+				9011A02926E6616400251BEA /* SignUpView.swift in Sources */,
 				9011A00A26E654E000251BEA /* WODbodApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
